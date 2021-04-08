@@ -9,12 +9,12 @@ public class RobotB
 		System.out.println("Initiated");
 	}
 
-	static void method1()
+	public static void method1()
 	{
 		System.out.println("method1 executed");
 	}
 	
-	static void method2()
+	public static void method2()
 	{
 		System.out.println("method2 executed");
 	}

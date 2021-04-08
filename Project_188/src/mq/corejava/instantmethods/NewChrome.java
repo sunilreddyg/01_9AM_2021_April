@@ -4,22 +4,22 @@ package mq.corejava.instantmethods;
 public class NewChrome 
 {
 	
-	void launch_browser()
+	public void launch_browser()
 	{
 		System.out.println("Browser launched");
 	}
 	
-	void Open_site()
+	public void Open_site()
 	{
 		System.out.println("Site opened");
 	}
 	
-	void Verify_page()
+	public void Verify_page()
 	{
 		System.out.println("PageVerified");
 	}
 	
-	void Testpage()
+	public void Testpage()
 	{
 		launch_browser();
 		Open_site();
