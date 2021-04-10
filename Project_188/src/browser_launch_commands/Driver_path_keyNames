@@ -8,7 +8,6 @@ Environment variable for chrome browser:-->
 	
 	System.setProperty("webdriver.chrome.driver","filepath\\chromedriver.exe");
 	
-
 Environment variable for firefox browser:-->
 	
 		keyname:--> webdriver.gecko.driver
@@ -23,7 +22,6 @@ Environment variable for Ie browser:-->
 		
 		System.setProperty("webdriver.ie.driver","filepath\\IEDriverServer.exe");
 		
-
 Environment variable for edge browser:-->
 	
 		keyname:--> webdriver.edge.driver

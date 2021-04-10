@@ -2,11 +2,12 @@ package browser_launch_commands;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Launch_Firefox_Browser {
+public class Launch_Firefox_Browser 
+{
 
 	public static void main(String[] args)
 	{
-		
+
 		/*
 		 * Navigation to download geckodriver.exe file
 		 * 
