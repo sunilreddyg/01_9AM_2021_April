@@ -19,6 +19,28 @@ public class Basic_Script
 		driver.findElement(By.id("pass")).sendKeys("hello12345");
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button")).click();
 	
+		/*
+		 * Exceptions:-->
+		 * 	=>  WebDriver driver=new ChromeDriver();
+		 * 		
+		 * 		IllegalStateException:-->
+		 * 			When Chromdriver.exe file not located
+		 * 			under current system.
+		 * 
+		 * 	=> driver.get("http://google.com");
+		 * 		
+		 * 		SessionNotCreated:-->
+		 * 			Exception display when browserdriver
+		 * 			version mismatch with browser version.
+		 * 
+		 * 		InvalidArgumentException:-->
+		 * 			When Url defined without http:// or https://
+		 * 	
+		 * 			Invalid:-->    driver.get("www.google.com");
+		 * 			Valid:---->	   driver.get("http://google.com");
+		 */
+		
+
 	}
 
 }

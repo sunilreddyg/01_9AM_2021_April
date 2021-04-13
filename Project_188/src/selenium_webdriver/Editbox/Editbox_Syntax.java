@@ -22,6 +22,8 @@ public class Editbox_Syntax {
 		driver.findElement(By.name("firstname")).clear();
 		driver.findElement(By.name("firstname")).sendKeys("Newuser");
 		
+		
+		
 		/*
 		 * Note:-->
 		 * 			Sendkeys is a method it allow characters to type into editbox.
@@ -31,9 +33,17 @@ public class Editbox_Syntax {
 		.sendKeys(Keys.TAB+"Webdriver"
 				+Keys.TAB+"newuserwebdriver@gmail.com");
 		
-		
+		//Dropdown selection using keyboard shortcuts
 		driver.findElement(By.id("month"))
 		.sendKeys(Keys.ARROW_DOWN,Keys.ARROW_DOWN);
+		
+		
+		
+		/*
+		 * Note:--> To select Dropdown in webdriver we have
+		 * 			separate commands. Do not use shortcut keys
+		 * 			to select dropdown.
+		 */
 
 	}
 
