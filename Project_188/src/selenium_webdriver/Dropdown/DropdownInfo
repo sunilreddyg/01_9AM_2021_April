@@ -155,7 +155,7 @@ Syntax:--->
 ===========================================================
 
 
-Dropdown Verificaton commands:-->
+Dropdown Verification commands:-->
 
 
 		getOptions
@@ -178,7 +178,7 @@ getAllSelectedOptions:-->
 
 		Note;--> This method only works on multiple selection dropdown
 		
-		=> Method collection list of options selected under multiple
+		=> Method collecting list of options selected under multiple
 			selection dropdown.And its help verify selection count.
 			
 			
