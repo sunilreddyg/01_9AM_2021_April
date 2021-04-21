@@ -51,6 +51,8 @@ page htmlsource:--->
 2. <div id="x" class="B"</div>
 3. <div id="x" class="C"></div>         -------> Target Location
 
+
+
 Identify 3rd element:--->
 
 		By.id("x")  ------> 2 nd
@@ -103,6 +105,7 @@ CssAttribute syntax:-->
 			make sure those properties available unqiue.
 
 
+		By.cssSelector("#Sbtn")
 		By.cssSelector("div[id='Sbtn']")
 		By.cssSelector("div[aria-label='Login']")
 		By.cssSelector("div[type='submit']")
